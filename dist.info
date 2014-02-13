@@ -1,4 +1,4 @@
-name = "pdh"
+name = "lua-pdh"
 version = "0.1.1"
 
 desc = "Lua binding to Microsoft Performance Data Helper (PDH) library"
