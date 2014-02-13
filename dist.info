@@ -1,0 +1,33 @@
+type = "x86"
+arch = "Windows"
+author = "Alexey Melnichuk"
+depends = {
+[[lua >= 5.1]],
+}
+
+desc = "Lua binding to Microsoft Performance Data Helper (PDH) library"
+version = "0.1.1"
+maintainer = "Alexey Melnichuk"
+files = {
+Runtime = {
+[[lib\lua\pdh\core.dll]],
+[[lib\lua\pdh.lua]],
+[[lib\lua\pdh\psapi.lua]],
+}
+,
+Example = {
+[[share\lua-pdh\example\\monitor_by_name.lua]],
+[[share\lua-pdh\example\\process_list.lua]],
+[[share\lua-pdh\example\\system_monitor.lua]],
+}
+,
+Data = {
+[[share\lua-pdh\README.md]],
+[[share\lua-pdh\LICENCE.txt]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "lua-pdh"
+url = "https://github.com/moteus/lua-pdh"
